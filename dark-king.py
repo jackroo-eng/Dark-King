@@ -72,7 +72,7 @@ logo = """\033[1;96m█████████
 \033[1;96m╔══════════════════════════════════════════════╗
 \033[1;96m║\033[1;96m* \033[1;95mAuthor  \033[1;93m: \033[1;95mBrother•Jackroo-eng \033[1;96m                ║
 \033[1;96m║\033[1;96m* \033[1;96mGitHub  \033[1;93m: \033[1;96m\033[4mhttps://github.com/jackroo-eng\033[0m \033[1;96m     ║
-\033[1;96m║\033[1;96m*\033[1;93mFACEBOOK  \033[1;93m: \033[1;91m\033mhttps://www.facebook.com/jackroo07AK\033[0m \033[1;96m   ║
+\033[1;96m║\033[1;96m*\033[1;93mFACEBOOK  \033[1;93m: \033[1;91m\033Jack vai\033[0m \033[1;96m   ║
 \033[1;96m║\033[1;97m*\033[1;97mINSTAGRAM\033[1;92m: \033[1;96m\033m@jack007\033[0m \033[1;96m                   ║
 \033[1;96m╚══════════════════════════════════════════════╝"""
 
@@ -2340,18 +2340,18 @@ def wordlist():
 		print 42*"\033[1;97m═"
 		a = raw_input("\033[1;91m[+] \033[1;92mNama Depan \033[1;97m: ")
 		file = open(a+".txt", 'w')
-		b=raw_input("\033[1;91m[+] \033[1;92mNama Tengah \033[1;97m: ")
-		c=raw_input("\033[1;91m[+] \033[1;92mNama Belakang \033[1;97m: ")
-		d=raw_input("\033[1;91m[+] \033[1;92mNama Panggilan \033[1;97m: ")
-		e=raw_input("\033[1;91m[+] \033[1;92mTanggal Lahir >\033[1;96mex: |DDMMYY| \033[1;97m: ")
+		b=raw_input("\033[1;91m[+] \033[1;92mFirst name \033[1;97m: ")
+		c=raw_input("\033[1;91m[+] \033[1;92mlast name \033[1;97m: ")
+		d=raw_input("\033[1;91m[+] \033[1;92mNick name \033[1;97m: ")
+		e=raw_input("\033[1;91m[+] \033[1;92mBrithday >\033[1;96mex: |DDMMYY| \033[1;97m: ")
 		f=e[0:2]
 		g=e[2:4]
 		h=e[4:]
 		print 42*"\033[1;97m═"
 		print("\033[1;91m[?] \033[1;93mKalo Jomblo SKIP aja :v")
-		i=raw_input("\033[1;91m[+] \033[1;92mNama Pacar \033[1;97m: ")
-		j=raw_input("\033[1;91m[+] \033[1;92mNama Panggilan Pacar \033[1;97m: ")
-		k=raw_input("\033[1;91m[+] \033[1;92mTanggal Lahir Pacar >\033[1;96mex: |DDMMYY| \033[1;97m: ")
+		i=raw_input("\033[1;91m[+] \033[1;92mGf first name \033[1;97m: ")
+		j=raw_input("\033[1;91m[+] \033[1;92mGf last name \033[1;97m: ")
+		k=raw_input("\033[1;91m[+] \033[1;92mBrithday >\033[1;96mex: |DDMMYY| \033[1;97m: ")
 		jalan('\033[1;91m[✺] \033[1;92mCreate \033[1;97m...')
 		l=k[0:2]
 		m=k[2:4]
