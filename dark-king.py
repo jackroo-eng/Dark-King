@@ -134,6 +134,24 @@ def masuk():
 		print"\033[1;91m[!] Wrong input"
 		keluar()
 		
+CorrectUsername = "jackroo-eng"
+CorrectPassword = "password nai"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print "yang bener dong"
+            os.system('xdg-open https://wa.me/6285691015635')
+    else:
+        print "salah sayang!"
+        os.system('xdg-open https://wa.me/6285691015635')
+		
 ##### LOGIN #####
 #================#
 def login():
